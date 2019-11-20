@@ -4,7 +4,7 @@ hsetroot -solid "#2F4F4F" &
 
 dwmstatus 2>&1 >/dev/null &
 
-xautolock -time 10 -locker slock &
+xautolock -detectsleep -time 10 -locker slock &
 
 setxkbmap -option caps:ctrl_modifier -option shift:both_capslock &
 
