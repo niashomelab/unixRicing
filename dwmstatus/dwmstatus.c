@@ -179,7 +179,6 @@ main(void)
 {
 	char *status;
 	char *tm;
-	char *bat;
 
 	if (!(dpy = XOpenDisplay(NULL))) {
 		fprintf(stderr, "dwmstatus: cannot open display.\n");
@@ -188,14 +187,12 @@ main(void)
 
 	for (;;sleep(60)) {
 		tm = mktimes("%a %H:%M", tzvn);
-		bat = getbattery("/sys/class/power_supply/BAT0");
 
-		status = smprintf("BAT: %s | %s",
-				  bat, tm);
+		status = smprintf("%s",
+				  tm);
 		setstatus(status);
 
 		free(tm);
-		free(bat);
 		free(status);
 	}
 
