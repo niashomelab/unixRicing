@@ -1,5 +1,7 @@
 # RICING
 
+https://github.com/gpakosz/.tmux Oh my TMUX
+
 ## FONTS
 
 ttf-nanum
