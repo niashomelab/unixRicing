@@ -186,7 +186,7 @@ main(void)
 	}
 
 	for (;;sleep(60)) {
-		tm = mktimes("%a %H:%M", tzvn);
+		tm = mktimes("%A %H:%M", tzvn);
 
 		status = smprintf("%s",
 				  tm);
