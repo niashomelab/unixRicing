@@ -4,11 +4,10 @@ version: 0.8.4
 
 ## Patches
 
-* noborder
-* solarized
-* anysize
-* scrollback
-
+* noboldcolor st-no_bold_colors-0.8.1.diff
+* solarized st-solarized-dark-20180411-041912a.diff
+* anysize st-anysize-20201003-407a3d0.diff
+* scrollback st-scrollback-20200419-72e3f6c.diff
 
 ## Changes
 
