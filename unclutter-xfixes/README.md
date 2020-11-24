@@ -1,8 +1,10 @@
-[![Issues](https://img.shields.io/github/issues/Airblader/unclutter-xfixes.svg)](https://github.com/Airblader/unclutter-xfixes/issues)
-[![Forks](https://img.shields.io/github/forks/Airblader/unclutter-xfixes.svg)](https://github.com/Airblader/unclutter-xfixes/network)
-[![Stars](https://img.shields.io/github/stars/Airblader/unclutter-xfixes.svg)](https://github.com/Airblader/unclutter-xfixes/stargazers)
-
 # unclutter-xfixes
+
+## Dependencies
+* libxfixes-dev
+* libev-dev
+* libxi-dev
+* asciidoc
 
 ## About
 
@@ -31,7 +33,6 @@ unclutter-xfixes is available in the FreeBSD Ports Collection as [misc/unclutter
 unclutter-xfixes is make-based. Hence, you can clone the git repository and compile and install it via
 
 ```
-git clone https://github.com/Airblader/unclutter-xfixes
 cd unclutter-xfixes
 make
 sudo make install
