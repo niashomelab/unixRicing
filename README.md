@@ -1,8 +1,8 @@
 # unixRICING
 
-git remote set-url origin https://github.com/niashomelab/unixRicing
-git config --global user.email "niashomelab@gmail.com"
-git config --global user.name "nia"
+git remote set-url origin https://github.com/niashomelab/unixRicing  
+git config --global user.email "niashomelab@gmail.com"  
+git config --global user.name "nia"  
 
 ## Guides
 
